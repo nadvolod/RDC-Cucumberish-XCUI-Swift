@@ -1,5 +1,9 @@
 # RDC-Cucumberish-XCUI-Swift
 
+### Extra requirements
+
+* Make sure that you have an [Apple Developer account] (https://developer.apple.com/programs/enroll/).
+
 ### Environment Setup
 
 1. Global Dependencies
@@ -10,6 +14,8 @@
 
 3. In XCode under your target's `Signing & Capabilities` select your team and make sure `Automatically manage signing` is        checked.
 
+	* To learn about `Signing & Capabilities`, you can follow the tutorial [here] (https://developer.apple.com/documentation/xcode/adding_capabilities_to_your_app)
+	* Make sure to also handle provisioning profiles.
 4. Select `Generic iOS Device` in the top left dropdown and choose `Product->Build For->Testing`.
 
 5. After that the `Product` group in the navigator should show a few files:
